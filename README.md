@@ -1,2 +1,2 @@
 # fid
-This repository is for hosting codes, sites and projects. 
+This repository is for my class' codes, sites and projects. 
