@@ -1,27 +1,5 @@
-.play-on-hover}
-width:150;
-height:100;
-background-image:"bpizza.png";
-background-size: cover;
-cursor: pointer;
-border-radius: 10px;
-box-shadow: 0 10px 20px -5px #ccc;
-}
 
-.play-on-hover:hover{
-  background-image:"./Pizza/orderpizza.GIF";
-  width: 150;
-  height: 100;
-  
-
-
-.static {
-  position:absolute;
-  background: white;
-}
-
-.static:hover {
-  opacity:0;
+<style>
 }
  body {
  background-color: #faf2e4;
@@ -38,4 +16,16 @@ box-shadow: 0 10px 20px -5px #ccc;
  }h2 {
   color: #d1633c;
   font-size: 1em;
- }
+}
+.Pizza{
+width: 150px;
+height: 100px;
+background: url(./blackgoose/Pizza/bgpizza.png)
+margin:auto;
+}
+.Pizza:hover {
+  cursor:pointer;
+  background:url(orderpizza.GIF)
+}
+</style>
+
