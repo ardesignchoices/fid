@@ -17,15 +17,29 @@
   color: #d1633c;
   font-size: 1em;
 }
-.Pizza{
-width: 150px;
-height: 100px;
-background: url(bgpizza.png)
-margin:auto;
+.gif{
+{
+    position: absolute;
+    margin: auto;
+    background-image: url(/path/to/starting.frame);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    animation: play 0.5s infinite steps(1);
+    animation-play-state: paused;
 }
-.Pizza:hover {
-  cursor:pointer;
-  background:url(orderpizza.GIF)
+.gif:hover {
+    animation-play-state:running;
+}
+ @keyframes play {
+    0%   { background-image: url('/path/to/0.frame'); } 
+    15%  { background-image: url('/path/to/1.frame'); }
+    30%  { background-image: url('/path/to/2.frame'); }
+    45%  { background-image: url('/path/to/3.frame'); }
+    60%  { background-image: url('/path/to/4.frame'); }
+    75%  { background-image: url('/path/to/5.frame'); }
+    90%  { background-image: url('/path/to/6.frame'); }
+    100% { background-image: url('/path/to/7.frame'); }
 }
 </style>
 
