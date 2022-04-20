@@ -20,7 +20,7 @@
 .Pizza{
 width: 150px;
 height: 100px;
-background: url(./blackgoose/Pizza/bgpizza.png)
+background: url(bgpizza.png)
 margin:auto;
 }
 .Pizza:hover {
